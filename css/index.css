@@ -1,0 +1,121 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(/img/fondo-inicio.jpeg);
+    background-color: rgba(0, 0, 0, .8);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+} */
+/* --------------barra de menu-------------- */
+/* 
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+}
+.logo {
+    width: 150px;
+}
+
+.logo img {
+    width: 50px;
+}
+.nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav ul a {
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+    color: #000;
+}
+
+.login a button{
+    width: 150px;
+} */
+
+/* inicio */
+.banner {
+    padding-top: 75px;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.banner p {
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+}
+
+.banner p:hover {
+    color: #cccc;
+}
+
+.banner h1 {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    text-align: center;
+    color: #fff;
+    margin: 20px 0;
+}
+.banner div {
+    margin: 15px auto;
+}
+
+.banner div a {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, .1);
+    padding: 10px 15px;
+}
+.banner div:hover {
+    transform: translateY(-3px);
+    transition: ease;
+}
+
+/* banner-1 */
+
+.banner-1 {
+    background-color: #111;
+    padding: 50px;
+}
+
+.banner-1 p {
+    color: #fff;
+    text-align: center;
+}
+
+/* footer */
+
+/* .footer {
+    background-color: #fff;
+    padding: 20px 50px;
+}
+
+.footer p {
+    text-transform: capitalize;
+    text-align: center;
+    padding: 5px;
+} */
